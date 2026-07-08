@@ -1,16 +1,31 @@
  
 import Navbar from './Navbar';
 import Home from './Home';
-
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Create from './Create';
+import BlogDetail from './BlogDetail';
 function App() {
   return (
-    <div className="App">
+    <Router>  
+     <div className="App">
     <Navbar />
-
     <div className="content">
-     <Home />
+    <Switch>
+      <Route exact path="/"> 
+          <Home />
+      </Route>
+
+      <Route path="/create"> 
+          <Create />
+            </Route> 
+            
+      <Route path="/blogs/:id"> 
+         <BlogDetail></BlogDetail>
+      </Route>  
+    </Switch>
     </div>
 
+{/* Lesson 7 */}
       {/* <div className="content">
         <h1>{title}</h1>
 
@@ -22,7 +37,9 @@ function App() {
 
         <a href={link}>Google Site</a>
       </div> */}
-    </div>
+    </div>   
+    </Router>
+
   );
 }
 
