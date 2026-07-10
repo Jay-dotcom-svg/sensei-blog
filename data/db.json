@@ -13,10 +13,10 @@
       "id": "2"
     },
     {
-      "title": "hello sensei",
-      "body": "come over to the dojo right now\nLorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit iusto fugit accusantium tempora maiores. Ipsa corrupti modi labore similique cumque temporibus quaerat vitae excepturi saepe enim veniam maxime, ea soluta?",
-      "author": "yoshi",
-      "id": "gV3lqpxKCao"
+      "title": "Testing.....",
+      "body": "This is to test that the probability of thus working in mobile devices is very low.",
+      "author": "mario",
+      "id": "_E0TBiwoqBw"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
